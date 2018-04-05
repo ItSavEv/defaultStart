@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="catalog.CatalogProgramsTest" time="1.021" tests="4" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="10"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="S:\temp\SeleniumTest\als\target\test-classes;S:\temp\SeleniumTest\als\target\classes;C:\Users\esavchuk\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\esavchuk\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\esavchuk\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\esavchuk\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\esavchuk\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\esavchuk\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\esavchuk\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\esavchuk\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="10"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.boot.library.path" value="S:\Cloud\QC\5.Dev\tools\jdk\bin"/>
+    <property name="sun.java.command" value="C:\Users\esavchuk\AppData\Local\Temp\surefire9786682570499263559\surefirebooter108244777350755217.jar C:\Users\esavchuk\AppData\Local\Temp\surefire9786682570499263559 2018-04-05T18-29-44_065-jvmRun1 surefire16465577940026529097tmp surefire_010885946465459674217tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="S:\temp\SeleniumTest\als\target\test-classes;S:\temp\SeleniumTest\als\target\classes;C:\Users\esavchuk\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\esavchuk\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\esavchuk\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\esavchuk\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\esavchuk\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\esavchuk\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\esavchuk\.m2\repository\org\apache\maven\surefire\surefire-testng-utils\2.21.0\surefire-testng-utils-2.21.0.jar;C:\Users\esavchuk\.m2\repository\org\apache\maven\surefire\surefire-grouper\2.21.0\surefire-grouper-2.21.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\esavchuk"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2018-03-20"/>
+    <property name="java.home" value="S:\Cloud\QC\5.Dev\tools\jdk"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="S:\temp\SeleniumTest\als"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\esavchuk\AppData\Local\Temp\surefire9786682570499263559\surefirebooter108244777350755217.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="10+46"/>
+    <property name="user.name" value="esavchuk"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.3"/>
+    <property name="localRepository" value="C:\Users\esavchuk\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\esavchuk\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2018.1"/>
+    <property name="java.version" value="10"/>
+    <property name="user.dir" value="S:\temp\SeleniumTest\als"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="S:\Cloud\QC\5.Dev\tools\jdk\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Acronis\SnapAPI\;C:\Program Files\nodejs\;S:\temp\node_modules\chromedriver\lib\chromedriver;S:\temp\node_modules\geckodriver;S:\Cloud\QC\5.Dev\tools\maven\bin;S:\Cloud\QC\5.Dev\tools\jdk\bin;C:\Users\esavchuk\AppData\Local\Microsoft\WindowsApps;C:\Users\esavchuk\AppData\Roaming\npm;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="10+46"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="54.0"/>
+  </properties>
+  <testcase name="Samle1" classname="catalog.CatalogProgramsTest" time="0.011"/>
+  <testcase name="Sample" classname="catalog.CatalogProgramsTest" time="0.124">
+    <failure message="expected:&lt;[1]&gt; but was:&lt;[2]&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[1]> but was:<[2]>
+	at catalog.CatalogProgramsTest.Sample(CatalogProgramsTest.java:11)
+]]></failure>
+    <system-out><![CDATA[Hi guys
+]]></system-out>
+  </testcase>
+  <testcase name="Sample2" classname="catalog.CatalogProgramsTest" time="0"/>
+  <testcase name="Sample3" classname="catalog.CatalogProgramsTest" time="0"/>
+</testsuite>
